@@ -1,0 +1,49 @@
+@import "../styles/variables.css";
+
+.mortgage-title {
+  color: var(--clr-slate-900);
+  font-family: var(--font-body);
+}
+
+.mortgage-form label,
+.mortgage-type,
+.input-addon {
+  color: var(--clr-slate-900);
+  font-size: 12px;
+}
+
+.clear {
+  font-size: 12px;
+  text-decoration: underline;
+  color: var(--clr-slate-700);
+}
+
+.calculate-btn {
+  background-color: var(--clr-lime);
+  color: var(--clr-slate-900);
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.form-check {
+  border: 1px solid;
+  border-color: var(--clr-slate-900);
+  border-radius: 0.3rem;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.form-check-input {
+  margin-left: 0;
+}
+
+@media (min-width: 1440px) {
+  .mortgage-title {
+    font-size: 1.2rem;
+  }
+}

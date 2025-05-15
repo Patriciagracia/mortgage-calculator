@@ -1,0 +1,17 @@
+/* App.css */
+@import "./styles/variables.css";
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  background-color: var(--clr-white);
+  color: var(--clr-slate-900);
+  line-height: 1.6;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
