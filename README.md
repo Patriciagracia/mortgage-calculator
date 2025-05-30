@@ -47,7 +47,7 @@ Users should be able to:
 
 - Implementing client-side form validation with `useState`, including error feedback and required field logic.
 
-- Improving accessibility by ensuring the app is keyboard-navigable (e.g. fixing radio button focus issues and using `role="button"` and `tabIndex` where needed).
+- Improving accessibility by ensuring the app is keyboard-navigable.
 
 - Managing lifted state between components (from `MortgageCalculator` to `App` and `Results`) to separate logic from presentation.
 

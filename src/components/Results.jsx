@@ -11,7 +11,7 @@ export default function Results({ monthly, total, showErrors }) {
           aria-hidden="true"
         />
         <h5 id="results-shown">Results shown here</h5>
-        <p>
+        <p id="p-results" className="ms-2 me-2">
           Complete the form and click "calculate repayments" to see what your
           monthly repayments would be.
         </p>
