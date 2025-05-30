@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Patriciagracia/mortgage-calculator/tree/main)
+- Live Site URL: [Add live site URL here](https://mortgage-calculator-five-snowy.vercel.app/)
 
 ## My process
 
@@ -57,5 +57,5 @@ I’d like to rebuild this same project without relying on Bootstrap. This would
 
 ## Author
 
-- Website - [Add your name here](https://personal-portfolio-nu-black.vercel.app/)
-- Github - [@yourusername](https://github.com/Patriciagracia)
+- Website - [Visit my portfolio](https://personal-portfolio-nu-black.vercel.app/)
+- Github - [@Patriciagracia](https://github.com/Patriciagracia)
