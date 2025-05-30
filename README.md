@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Patriciagracia/mortgage-calculator/tree/main)
-- Live Site URL: [Add live site URL here](https://mortgage-calculator-five-snowy.vercel.app/)
+- Solution URL: [GitHub repository](https://github.com/Patriciagracia/mortgage-calculator/tree/main)
+- Live Site URL: [Live site](https://mortgage-calculator-five-snowy.vercel.app/)
 
 ## My process
 
