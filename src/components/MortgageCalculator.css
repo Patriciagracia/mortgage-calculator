@@ -2,20 +2,93 @@
 
 .mortgage-title {
   color: var(--clr-slate-900);
-  font-family: var(--font-body);
+  font-weight: 700;
 }
 
 .mortgage-form label,
 .mortgage-type,
-.input-addon {
-  color: var(--clr-slate-900);
+.clear,
+.input-addon,
+.selector-text {
+  color: var(--clr-slate-700);
+}
+
+.mortgage-form label,
+.mortgage-type,
+.clear {
   font-size: 12px;
 }
 
 .clear {
-  font-size: 12px;
   text-decoration: underline;
-  color: var(--clr-slate-700);
+}
+
+.selector-text,
+#amount,
+#term,
+#rate {
+  color: var(--clr-slate-900);
+  font-weight: 700;
+}
+
+.input-group {
+  border: 0.1px solid var(--clr-slate-500);
+  border-radius: 0.375rem;
+}
+.input-addon {
+  background-color: var(--clr-slate-100);
+}
+
+.form-control:focus,
+.input-group:focus-within .form-control {
+  border-color: var(--clr-lime);
+  box-shadow: none !important;
+  outline: none;
+}
+
+.input-group:focus-within .input-addon {
+  border-color: var(--clr-lime);
+  background-color: #fafae1;
+}
+
+.input-group:focus-within {
+  border-color: var(--clr-lime);
+}
+
+.input-group:hover {
+  border: 1px solid var(--clr-slate-900);
+}
+
+.input-error-group {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: white;
+  border-radius: 0.375rem;
+}
+
+.input-error-group .input-addon,
+.input-addon:focus {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.input-error-group:focus-within .input-addon {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.input-error {
+  border: 1px solid #dc3545;
+  background-color: #fff5f5;
+  color: white;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
 }
 
 .calculate-btn {
@@ -23,13 +96,22 @@
   color: var(--clr-slate-900);
   border: none;
   border-radius: 999px;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 2.25rem;
   font-size: 1rem;
+  font-weight: 700;
 }
 
-.form-check {
+.radio-input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.radio-option {
+  position: relative;
   border: 1px solid;
-  border-color: var(--clr-slate-900);
   border-radius: 0.3rem;
   padding: 0.75rem 1rem;
   display: flex;
@@ -38,8 +120,54 @@
   font-weight: 700;
 }
 
-.form-check-input {
-  margin-left: 0;
+.radio-option.selected {
+  background-color: #fafae1;
+  border-color: var(--clr-lime);
+  box-shadow: 0 0 0 0.3px var(--clr-lime);
+}
+
+.radio-option:hover {
+  border-color: var(--clr-lime);
+}
+
+.radio-indicator {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--clr-slate-900);
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.radio-input:checked + .radio-indicator {
+  border-color: var(--clr-lime);
+}
+
+.radio-input:focus + .radio-indicator {
+  outline: 2px solid var(--clr-lime);
+  outline-offset: 2px;
+}
+
+.radio-input:checked + .radio-indicator::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: var(--clr-lime);
+  border-radius: 50%;
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
 }
 
 @media (min-width: 1440px) {

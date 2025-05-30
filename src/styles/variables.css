@@ -9,11 +9,6 @@
   --clr-slate-700: hsl(200, 24%, 40%);
   --clr-slate-900: hsl(202, 55%, 16%);
 
-  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font: "Plus Jakarta Sans", sans-serif;
   --font-size-body: 16px;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
-
-  --breakpoint-desktop: 1440px;
-  --breakpoint-mobile: 375px;
 }

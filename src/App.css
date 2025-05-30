@@ -1,17 +1,50 @@
-/* App.css */
 @import "./styles/variables.css";
 
+html,
 body {
   margin: 0;
-  font-family: var(--font-body);
-  font-size: var(--font-size-body);
-  background-color: var(--clr-white);
+  font-family: var(--font);
+  background-color: var(--clr-slate-100);
   color: var(--clr-slate-900);
   line-height: 1.6;
+  min-height: 100vh;
+  height: 100%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.calculator-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+
+  justify-content: center;
+  background-color: white;
 }
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.results-wrapper {
+  background-color: var(--clr-slate-900);
+  color: var(--clr-slate-300);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .calculator-wrapper {
+    max-width: 800px;
+    min-height: 500px;
+    border-radius: 1rem;
+    margin: 4rem auto 3rem auto;
+  }
+  .results-wrapper {
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
 }

@@ -1,1 +1,53 @@
 @import "../styles/variables.css";
+
+.results-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.results-container-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.results-h5 {
+  font-weight: 700;
+  color: white;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 12px;
+}
+
+#monthly {
+  color: var(--clr-lime);
+  font-size: 2.9rem;
+}
+
+#total-amount {
+  color: white;
+}
+
+.results-box {
+  background-color: #0e2532;
+  border-radius: 0.5rem;
+  border-top: 4px solid var(--clr-lime);
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#results-shown {
+  color: white;
+}
